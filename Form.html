@@ -1,0 +1,101 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-light bg-light navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Form.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#subbtn">Submit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resbtn">Reset</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+<form action = "display.html">
+    
+    <table align="center" cellpadding = "5">
+        <tr>
+            <td><label><i>Company:</i></label></td>
+            <td><input class="id" type = "text" name = "Company" placeholder="Enter Company name" required/></td>
+        </tr>
+        <tr>
+            <td><label><i>First Name      :</i></label></td>
+            <td><input class="id" type = "text" name = "first_name" placeholder="Enter your First Name" required/></td>
+
+        </tr>
+        <tr>
+            <td><label><i>Last Name : </i></label></td>
+            <td><input class="id" type = "text" name = "last_name" placeholder="Enter your Last Name" required/></td>
+
+        </tr>
+        <tr>
+            <td><label><i>Email Address : </i></label></td>
+	        <td><input class="id" type = "email" name = "email_id" placeholder="Enter your Email..." required/></td>
+	
+        </tr>
+	    <tr>
+            <td><label><i>Title : </i></label></td>
+            <td><input class="id" type="text" name ="tite" placeholder="Enter the Title..." required/></td>
+        </tr>
+        <tr>
+            <td><label><i>Mobile No : </i></label></td>
+            <td><input class="id" type = "text" name = "mobile_no" placeholder="Enter your mobile no.." required/></td>
+        </tr>
+        <tr>
+            <td><label><i>Cancel Registration:</i></label></td>
+            <td><input type="checkbox" id="cancel" value="cancel registration"><br>
+            </td>
+        </tr>
+	    <tr>
+            <td><label><i>Joining Date : </i></label></td>
+		    <td><input class="id" type = "date" name = "date" required/></td>
+        </tr>
+	    <tr>
+            <td><label><i>Job Function</i></label></td>
+            <td><input type="radio" name="Job" value="Campaign Management" required><i>Campaign Management</i></br>
+		    <input type="radio" name="Job" value="CRM Administration"><i>CRM Administration</i></br>
+		    <input type="radio" name="Job" value="Email Deployment"><i>Email Deployment</i></br>
+		    <input type="radio" name="Job" value="Partner"><i>Partner</i></br>
+            <input type="radio" name="Job" value="Employee"><i>Employee</i></td>
+        </tr>
+        <tr>
+            <td><label><i>Dietary Requirements : </i></label></td>
+            <td><input class="id" type = "text" name = "diet" placeholder="Enter your requirements.." required/></td>
+        </tr>
+        <tr>
+            <td><label><i>Expectations?: </i></label></td>
+            <td><textarea class="id2" rows="5" cols="50" name = "expect" placeholder="Enter your expectations.." required></textarea></td>
+        </tr>
+        <tr >
+            <td colspan="2" align="center"><input type="Submit" value="Submit" style = "background-color:#C0C0C0" id="b"/></td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>

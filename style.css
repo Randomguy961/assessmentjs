@@ -1,0 +1,40 @@
+table {
+	border :4px solid red;
+	width : 650px;
+}
+tr {
+	color : black;
+	font-size : 20px;
+}
+td {
+	font-size : 20px;
+	font-weight : bold;
+}
+.id {
+	height : 30px;
+	border : none;
+	border-bottom-style : solid;
+	border-bottom-width : 2px;
+	border-color : #625E5E;
+	width : 250px;
+	background-color : transparent;
+}
+.id2 {
+	border : none;
+	border-bottom-style : solid;
+	border-bottom-width : 2px;
+	border-color : #625E5E;
+	background-color:transparent;
+}
+input[type = Submit] {
+	font-size : 20px;
+	background-color:#009999;
+	border:none;
+	padding : 5px;
+	font-family:Comic Sans MS;
+}
+input[type=Submit]:hover {
+	color:#006666;
+    background-color: darkgreen;
+}
+
